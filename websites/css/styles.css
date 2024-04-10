@@ -1,0 +1,52 @@
+body{
+    background-color: pink; /*background color*/
+    color: darkorange; /*text color*/ 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+
+    
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color:palevioletred;
+}
+h5{
+    text-align: center;
+    font-style: bold;
+    font-size: 25pt;
+    background-color: lightblue;
+    opacity: 80%;
+    font-weight: bolder;
+
+}
+a{
+   /*link*/ color:  lavender;
+}
+a:visited{
+    color: darkblue;
+}
+img{
+    border: 2px solid rgb(213, 130, 4);
+    padding: 2px;
+    margin: 15px;
+    /*center stuff (code below)*/
+    /*display: block;
+    margin: auto;*/
+}
+.imgcenter{
+    display: block;
+    margin: auto;
+}
+/*this is creating a type of style you can put on diff elements*/
+.rizz{
+    color: rgb(83, 214, 171);
+    font-style: italic;
+    border: dotted palevioletred 5px;
+}
+li{
+    text-decoration:overline;
+}
+li:hover{
+    text-decoration:underline;
+}
